@@ -2,7 +2,7 @@
 
 ## 免登录
 ## ssh-keygen
-## ssh-copy-id root@82.157.145.132
+## ssh-copy-id root@127.0.0.1
 
 ## 服务器安装环境 https://learn.microsoft.com/zh-cn/dotnet/core/install/linux-centos
 ## sudo rpm -Uvh https://packages.microsoft.com/config/centos/7/packages-microsoft-prod.rpm
@@ -14,7 +14,7 @@ app_dll="WebApplication1.dll" # 应用程序的主要 DLL 文件名
 app_port="8000"
 publish_folder="out"
 remote_user="root"
-remote_host="82.157.145.132"
+remote_host="127.0.0.1"
 remote_destination="/home/dotnetwebapp"
 
 ## 还原项目

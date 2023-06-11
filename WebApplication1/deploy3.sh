@@ -6,7 +6,7 @@ app_dll="WebApplication1.dll" # 应用程序的主要 DLL 文件名
 app_port="8001"
 publish_folder="publish"
 remote_user="root"
-remote_host="82.157.145.132"
+remote_host="127.0.0.1"
 remote_destination="/home/dotnetwebapp"
 
 start() {
